@@ -1,0 +1,14 @@
+nodeServer:
+  build: .
+  # image: chiahao/node_image
+  links:
+    - mongo
+  ports:
+    - "3000:3000"
+
+mongo:
+  image: mongo:3.0.2
+  ports:
+    - "27017:27017"
+  volumes:
+    - ~/Documents/githubProject/docker_demo/mongo:/data
