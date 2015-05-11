@@ -65,7 +65,7 @@ function getDefaultForm(callback){
 
 	getMessages(function(messages){
 		var formOutput = '<html><body style="font-family:helvetica">'
-	  + '<h1>is my docker node app working with mongodb?</h1>'
+	  + '<h1>Node - MongoDB Test</h1>'
 	  + '<form method="post">'
 	  + '<div><input type="text" id="message" name="message" placeholder="Type your message..." style="width:50%;height:60px;font-size:30px;border:none;"/></div>'
 	  + '</form><hr/><ul style="list-style:none;">';
@@ -84,7 +84,7 @@ function getConfiguration() {
 	return {
 		port: 3000,
 		db: process.env.NODE_ENV == "production"
-			? "mongodb://mongo/test" 
-			: "mongodb://localhost:27017/node-mongo-sample"
+			? "mongodb://mongo/test"
+			: "mongodb://localhost:27017/test"
 	};
 };
