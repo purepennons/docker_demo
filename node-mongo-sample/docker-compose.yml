@@ -1,4 +1,4 @@
-nodeServer:
+nodeserver:
   build: .
   # image: chiahao/node_image
   links:
