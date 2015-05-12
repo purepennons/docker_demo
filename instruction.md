@@ -21,7 +21,7 @@
   * docker pull mongo:3.0.2
 
 ## run mongo
-  * docker run --name mongo_test --rm -v ~/Documents/githubProject/docker_demo/mongo:/data -p 27017:27017 mongo:3.0.2
+  * docker run --name mongo_test --rm -p 27017:27017 mongo:3.0.2
 
   * boot2docker ip
 
