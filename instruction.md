@@ -5,3 +5,6 @@
   * docker run ubuntu:14.04 bash -c "mkdir test && cd test && touch test.txt && ls"
 
   * docker run -it  ubuntu:14.04 bash
+
+  <!-- 查看 Linux 發行版本 -->
+  * cat /etc/*-release
