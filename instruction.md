@@ -8,3 +8,6 @@
 
   <!-- 查看 Linux 發行版本 -->
   * cat /etc/*-release
+
+  <!-- 查看 Linux Kernel -->
+  * uname -a
